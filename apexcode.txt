@@ -1,0 +1,20 @@
+//Integer result = calculator.add(10, 5);
+//System.debug('Result: ' + result);
+//calculator.add(10,5);
+
+
+// Test addition
+Integer sum = Calculator1.add(5, 5);
+System.debug('Result of addition: ' + sum);
+
+// Test subtraction
+Integer difference = Calculator1.subtract(5, 5);
+System.debug('Result of subtraction: ' + difference);
+
+// Test multiplication
+Integer product = Calculator1.multiply(5, 5);
+System.debug('Result of multiplication: ' + product);
+
+// Test division
+Decimal quotient = Calculator1.divide(5, 5);
+System.debug('Result of division: ' + quotient);
